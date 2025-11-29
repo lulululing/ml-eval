@@ -1,0 +1,9 @@
+datasets
+transformers>=4.44.0
+accelerate
+bitsandbytes; sys_platform != 'win32'
+torch
+pillow
+numpy
+# CPU备选：
+#llama-cpp-python
