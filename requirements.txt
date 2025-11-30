@@ -5,5 +5,8 @@ bitsandbytes; sys_platform != 'win32'
 torch
 pillow
 numpy
+# Qwen2-VL 相关依赖（建议安装，未安装时代码会 fallback）
+torchvision
+qwen-vl-utils
 # CPU备选：
 #llama-cpp-python
